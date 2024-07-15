@@ -14,4 +14,4 @@ Sukurti Python programą, kuri:
 6. Naudodamiesi Seaborn arba Matplotlib Python bibliotekomis, atvaizduokite bent du grafikus (skirtingų tipų - linijinių, stulpelinių, taškinių ar kt. ). 
 Pakaitaliokite grafikų parametrus, pvz. spalvų paletė. Grafikai turi turėti ašių pavadinimus, vertes ant ašių, pavadinimą. Dar gali turėti legendą ar kt. pasirinktą info.
 
-#### Projektas yra licenzijuotas MIT licenzija.
+#### Projektas yra licencijuotas MIT licencija.
