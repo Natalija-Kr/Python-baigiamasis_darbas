@@ -1,21 +1,3 @@
-# Sukurti Python programą, kuri:
-
-
-# !!! Sukurtų duomenų bazę ir atliktų nurodytus veiksmus su ja, pasirinktu duomenų bazės apdorojimo principu, naudojant užklausas (sqlite3), arba Pandas dataframe.
-
-# 1. Sukurtų lentelę Saldainiai su stulpeliais: Pavadinimas, Tipas, Kaina/kg, Perkamas kiekis, Kaina.
-# 2. Užpildytu saldainių duomenų bazę duomenimis iš tekstinio failo saldainiai.txt (jei norite galite pasiversti ir į csv). Ps. (Kainą apskaičiuosime ir įtrauksime)
-# 3. Užpildykite stulpelį Kaina įtraukdami apskaičiuotas sumos vertes prie atitinkamo saldainio.
-# 4. Atspausdintų tik tuos saldainius kurių tipas įvedamas klaviatūra pvz. "Šokoladinis" ir kaina > 5 eur - įvedama klaviatūra.
-# 5. Panaikintų input pagalba įvesto saldainio pavadinimo duomenis - ištrintų visą eilutę lentelėje apie tą saldainį.
-# 6. Naudodamiesi Seaborn arba Matplotlib Python bibliotekomis, atvaizduokite bent du grafikus (skirtingų tipų - linijinių, stulpelinių, taškinių ar kt. ). Pasitelkite fantaziją ir kūrybą kaip norite ką norite atvaizduokite.  
-# Pakaitaliokite grafikų parametrus, pvz. spalvų paletė. Grafikai turi turėti ašių pavadinimus, vertes ant ašių, pavadinimą. Dar gali turėti legendą ar kt. pasirinktą info.
-
-# PASTABA:
-# Spausdinkite tarpinius rezultatus kiekvieną eilutę atskirai. Pvz.
-# "Miglė", "Šokoladinis", 6, 2
-# "Vilnius", "Šokoladinis", 7, 1
-
 import sqlite3
 from csv import reader
 import pandas as pd
